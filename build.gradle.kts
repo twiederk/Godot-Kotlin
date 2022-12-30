@@ -16,6 +16,6 @@ godot {
 dependencies {
     implementation("com.d20charactersheet:framework:4.11.0")
 
-    testImplementation("org.assertj:assertj-core:3.22.0")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    implementation("org.assertj:assertj-core:3.22.0")
+    implementation("org.junit.jupiter:junit-jupiter:5.8.1")
 }
