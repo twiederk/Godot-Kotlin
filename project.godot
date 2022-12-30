@@ -8,9 +8,20 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Spatial",
+"class": "com_example_game_Simple",
+"language": "Kotlin",
+"path": "res://src/main/kotlin/com/example/game/Simple.kt"
+} ]
+_global_script_class_icons={
+"com_example_game_Simple": ""
+}
+
 [application]
 
 config/name="Kotlin Godot"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
 [gui]
